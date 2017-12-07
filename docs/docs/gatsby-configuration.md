@@ -52,6 +52,13 @@ Check this out: gatsby/examples/using-path-prefix/
 Adds prefix to the site served using Gatsby.
 
 ## mapping
+
+Doesn't appear to be used
+
+However, this might be a nice ref.
+
+Check this out: gatsby/examples/using-path-prefix/
+
 ## plugins
 ## polyfill
 
