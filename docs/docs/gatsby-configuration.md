@@ -44,6 +44,13 @@ if your siteMetadata is like this:
 you can access `siteName` by using `this.props.data.site.siteMetadata.siteName` in your page.
 
 ## pathPrefix
+
+pathPrefix: (string)
+
+Check this out: gatsby/examples/using-path-prefix/
+
+Adds prefix to the site served using Gatsby.
+
 ## mapping
 ## plugins
 ## polyfill
