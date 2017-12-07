@@ -16,9 +16,7 @@ export const gatsbyConfigSchema = Joi.object().keys({
 })
 ```
 
-This document addresses the configuration file for Gatsby, `gatsby-config.js`.
-
-`gatsby-config.js` is used to config stuffs.
+`gatsby-config.js` is the configuration file for setting up Gatsby. This sets up 
 
 
 # Common Usage
@@ -28,10 +26,32 @@ This document addresses the configuration file for Gatsby, `gatsby-config.js`.
 Here lies some fields
 
 ## siteMetadata
+
+siteMetadata: (object)
+
+Something you can access from every page.
+
+if your siteMetadata is like this:
+
+```javascript
+{
+  siteMetadata: {
+    siteName: "Site Name here"
+  }
+}
+```
+
+you can access `siteName` by using `this.props.data.site.siteMetadata.siteName` in your page.
+
 ## pathPrefix
 ## mapping
 ## plugins
 ## polyfill
+
+polyfill: (bool)
+
+Will run `require(`core-js/modules/es6.promise`)`
+
 ## proxy
 ### prefix
 ### url
