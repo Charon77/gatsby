@@ -50,7 +50,7 @@ you can access `siteName` by using `this.props.data.site.siteMetadata.siteName` 
 
 polyfill: (bool)
 
-Will run `require(`core-js/modules/es6.promise`)`
+Will run `require('core-js/modules/es6.promise')`
 
 ## proxy
 ### prefix
